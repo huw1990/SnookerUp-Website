@@ -1,0 +1,143 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  background-color:#017821;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:link, a:hover, a:active {
+  text-decoration:none;
+}
+
+img {
+  text-decoration: none; 
+  border: 0px
+}
+
+.section {
+  width:100%;
+}
+
+.container {
+  min-height:100%;
+  padding:0;
+  position:relative;
+}
+
+.header-bar {
+  height:50px;
+  text-align:left;
+  background-color: #017821;
+}
+
+.header-logo {
+  float: left;
+  height: 40px;
+  margin: 15px;
+}
+
+.header-content img{
+  float:left;
+  height: 40px;
+  margin: 15px;
+}
+
+.header-content h2 {
+  float: left;
+  color: white;
+  line-height: 50px;
+  padding: 5px 10px;
+}
+
+.header-content menu {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.header-content li {
+  list-style-type: none;
+  padding: 0;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.header-content li a {
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+}
+
+.header-menu {
+  float: right;
+}
+
+.centered-content {
+  width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0px;
+  vertical-align:middle;
+}
+
+.centered-content p {
+  padding:0px;
+  margin:0px;
+}
+
+.centered-content h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.title-section {
+  height: 200px;
+  background-color: #c2250a;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px; 
+}
+
+.about-section {
+  height:200px;
+  background-color: black;
+  color: white;
+}
+
+.routines-section {
+  height:200px;
+  background-color: #f573ce;
+}
+
+.get-the-app-section {
+  height:200px;
+  background-color: #1737de;
+  color: white;
+}
+
+.contact-us-section {
+  height:200px;
+  background-color: #fded5f;
+}
+
+.footer-bar {
+  height:50px;
+  background-color: #086714;
+}
+
+.footer-text {
+  text-align:center;
+  line-height:50px;
+  font-size:12px;
+  color:#aeb1b3;
+}

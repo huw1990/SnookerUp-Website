@@ -101,33 +101,35 @@ img {
 
 .title-section {
   height: 200px;
-  background-color: #c2250a;
-  color: white;
+  background-color: white;
+}
+
+.title-section h1 {
   text-align: center;
   vertical-align: middle;
   line-height: 200px; 
+  width: 80%;
 }
 
 .about-section {
   height:200px;
-  background-color: black;
-  color: white;
+  background-color: #f80d0d;
 }
 
 .routines-section {
   height:200px;
-  background-color: #f573ce;
+  background-color: #fded5f;
 }
 
 .get-the-app-section {
   height:200px;
-  background-color: #1737de;
-  color: white;
+  background-color: #f573ce;
 }
 
 .contact-us-section {
   height:200px;
-  background-color: #fded5f;
+  background-color: #1737de;
+  color: white;
 }
 
 .footer-bar {
@@ -140,4 +142,66 @@ img {
   line-height:50px;
   font-size:12px;
   color:#aeb1b3;
+}
+
+.animated{
+  display: inline;
+  text-indent: 8px;
+}
+
+.animated span{
+  animation: topToBottom 10s linear infinite 0s;
+  -ms-animation: topToBottom 10s linear infinite 0s;
+  -webkit-animation: topToBottom 10s linear infinite 0s;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.animated span:nth-child(2){
+  animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
+.animated span:nth-child(3){
+  animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  -webkit-animation-delay: 5s;
+}
+
+.animated span:nth-child(4){
+  animation-delay: 7.5s;
+  -ms-animation-delay: 7.5s;
+  -webkit-animation-delay: 7.5s;
+}
+
+@keyframes topToBottom{
+  0% { opacity: 0; }
+  8% { opacity: 0; -webkit-transform: translateY(-50px); }
+  15% { opacity: 1; -webkit-transform: translateY(0px); }
+  28% { opacity: 1; -webkit-transform: translateY(0px); }
+  30% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.yellow {
+  color: #dccb32;
+}
+
+.green {
+  color: #148f24;
+}
+
+.pink {
+  color: #f573ce;
+}
+
+.blue {
+  color: #1737de;
+}
+
+.brown {
+  color: #6c411b;
 }

@@ -3,8 +3,8 @@ html, body {
   padding:0;
   height:100%;
   background-color:#017821;
-  font-family: 'Exo', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #222423;
 }
 
 a:link, a:hover, a:active {
@@ -102,33 +102,38 @@ img {
 .title-section {
   height: 200px;
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title-section h1 {
   text-align: center;
   vertical-align: middle;
   line-height: 200px; 
-  width: 80%;
+  width: 70%;
 }
 
 .about-section {
-  height:200px;
-  background-color: #f80d0d;
+  min-height:200px;
+  background-color: #f16464;
+}
+
+.about-section img {
+  height: 400px;
 }
 
 .routines-section {
   height:200px;
-  background-color: #fded5f;
+  background-color: #f1e88e;
 }
 
 .get-the-app-section {
   height:200px;
-  background-color: #f573ce;
+  background-color: #387d4d;
 }
 
 .contact-us-section {
   height:200px;
-  background-color: #1737de;
+  background-color: #5d56ad;
   color: white;
 }
 
